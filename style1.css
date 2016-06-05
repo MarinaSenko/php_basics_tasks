@@ -1,0 +1,58 @@
+/* Задача №14
+С помощью CSS придать тексту стиль, который находиться в блочном теге div.
+Стиль текста должен быть: шрифт - Tahoma, размер - 14px, цвет - #CCCCCC, расстояние между строками 1,5em.*/
+
+div {
+    font-family: Tahoma;
+    font-size: 14px;
+    color:#CCCCCC;
+    line-height: 1.5em;
+}
+
+/*Задача №15
+С помощью CSS-правил расположить 2 блока в одной горизонтальной линии. 
+Блоки должны быть по 50% ширины от документа, и высотой в 100px. Закрасить блоки разными цветами.*/
+
+.two_divs {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+#one {
+    background-color: aqua;
+}
+#two {
+    background-color: yellow;
+}
+/* Задача №16
+С помощью CSS-правил расположить 3 блока в одной горизонтальной линии.
+Блоки должны быть равномерной ширины, и высотой в 100px. Закрасить блоки разными цветами.*/
+
+#div_1, #div_2, #div_3 {
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+    height: 100px;
+}
+#div_1 {
+    background-color: red;
+}
+#div_2 {
+    background-color: green;
+}
+#div_3 {
+    background-color: yellow;
+}
+
+/*Задача №17
+Вывести блок в котором будет фоновое изображение, которое задано с помощью CSS-правил. 
+Изображение должно быть ограничено по размерам, например 500px в ширину и 300px по высоте.*/
+
+#bg {
+    width: 500px;
+    height: 300px;
+    background-image: url("http://img-0.photosight.ru/152/6287908_xlarge.jpg");
+    background-size: 500px 300px;
+}
+
